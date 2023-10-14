@@ -40,3 +40,16 @@ console.log(typeof stringNumber+" "+stringNumber);
  * null -> null
  * undefined -> undefined
  */
+
+
+/**
+ * Opeartions
+ */
+
+console.log(1+"2");   // 12
+console.log("1"+2);   // 12
+console.log(1+2+"2"); // 32
+console.log(1+"2"+2); // 122
+
+// Operation of string are confusion
+//  Addition is done based on starting value
