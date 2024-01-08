@@ -84,3 +84,40 @@ console.log(Object.entries(tinderUser)); // Returns an array of key : value pair
 // Check if a property (key) is present in object
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+
+// ---------------------------------------------------
+
+
+// Destructuring
+
+// Object Destruct
+const course = {
+    name: "Javascript",
+    price: 999,
+    courseInstructor: "Sam"
+}
+
+const {courseInstructor} = course
+
+const {courseInstructor: instructor} = course // Alias for instructor
+
+console.log("Course Instructor: ",courseInstructor , " , " , instructor);
+
+//  API - JSON
+/** 
+{
+    "name": "Hitesh",
+    "courseName": "JS IN HINDI",
+    "price": "free"
+}
+*/
+
+/**
+ Array of object
+ [
+    {},
+    {},
+    {}
+ ]
+ */
