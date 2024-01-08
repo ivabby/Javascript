@@ -1,4 +1,5 @@
 // Singleton
+// const tinderUser = new Object();
 
 //Object.create
 
