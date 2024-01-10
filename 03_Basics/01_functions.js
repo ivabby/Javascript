@@ -37,5 +37,33 @@ function loginUserMessage(userName = "Pankaj") { // Define default value
     return `${userName} just logged in`;
 }
 
-console.log(loginUserMessage("Sam"));
-console.log(loginUserMessage()); // Output : Undefined just logged in
+// console.log(loginUserMessage("Sam"));
+// console.log(loginUserMessage()); // Output : Undefined just logged in
+
+// function calculateCartPrice(...num1) { // Output: num1 = 2,400,500,100
+//     return num1;
+// }
+
+
+// function calculateCartPrice(val1,val2,...num1) { // Output: 2,400 num1 = 500,100
+//     return num1;
+// } 
+
+// function calculateCartPrice(...num1,val1,val2) { // Output: Error as rest parameter needs to be last parameter
+//     return num1;
+// }
+
+
+// console.log(calculateCartPrice(2,400,500,100));
+
+const user = {
+    name: "Sam"
+}
+
+function handleObject(anyObject) {
+    console.log(`Name: ${anyObject.name}`);
+}
+
+// handleObject(user);
+
+handleObject({name: "Mohan"});
