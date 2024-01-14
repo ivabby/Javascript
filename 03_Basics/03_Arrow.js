@@ -27,7 +27,7 @@ function chai() {
     //  This as context will be used inside object only not inside function
 }
 
-// chai();
+chai();
 
 const arrowFunction = () => {
     let userName = "Sam"
