@@ -40,6 +40,7 @@ function loginUserMessage(userName = "Pankaj") { // Define default value
 // console.log(loginUserMessage("Sam"));
 // console.log(loginUserMessage()); // Output : Undefined just logged in
 
+//  Destructuring in JS
 // function calculateCartPrice(...num1) { // Output: num1 = 2,400,500,100
 //     return num1;
 // }
